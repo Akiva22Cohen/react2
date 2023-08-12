@@ -3,7 +3,7 @@ import Tasks from "./tasks";
 
 function TaskManager() {
   // let listTasks = [{}];
-  let [listTasks, setlistTasks] = useState([{}]);
+  let [listTasks, setlistTasks] = useState({ title: '', desc: '' });
   // console.log(listTasks);
   return (
     <div className='container-fluid'>
@@ -26,7 +26,10 @@ function TaskManager() {
               <label htmlFor="tital_id">כותרת</label>
               <input
                 onChange={e => {
-                  setlistTasks(listTasks.title.e.target.value)
+                  setlistTasks({ ...listTasks, title: e.target.value })
+                  function dssd(eqwew){
+                    
+                  }
                   console.log(listTasks)
                 }}
                 className="form-control"
