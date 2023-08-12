@@ -8,7 +8,7 @@ function Start() {
 
         </header>
         <div>
-          1234
+          start
         </div>
       </div>
     </div>
