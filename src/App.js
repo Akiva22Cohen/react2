@@ -1,10 +1,10 @@
 import './App.css';
-import Start from './components/start';
+import TaskManager from './components/appTaskManager';
 
 function App() {
   return (
     <div className="App">
-      <Start />
+      < TaskManager />
     </div>
   );
 }
