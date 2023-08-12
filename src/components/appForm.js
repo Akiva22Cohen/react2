@@ -1,12 +1,18 @@
 import React from "react";
-import CreateForm from "./createForm";
 
-function Form() {
+function Start() {
   return (
-    <div className="">
-      <CreateForm />
+    <div className='container-fluid'>
+      <div className="container">
+        <header style={{ minHeight: '10vh' }}>
+
+        </header>
+        <div>
+          start
+        </div>
+      </div>
     </div>
   );
 }
 
-export default Form;
+export default Start;
