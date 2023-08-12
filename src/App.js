@@ -1,5 +1,5 @@
 import './App.css';
-import Start from './components/appForm';
+import Start from './components/start';
 
 function App() {
   return (
